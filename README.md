@@ -14,6 +14,23 @@ Data collected from sensors is being used to decide when is the right time to wa
 * **Temperature** and **humidity** sensors can also help deciding about critical conditions for your plants.
 * It will help you save water!. It will water the plants when is required and the water reservoir can be filled-up with rainwater.
 
+## The Blynk App
+
+The Blynk app can be used to monitor in real time the data collected by the sensors:
+* Plot the UV index.
+* Check the actual water level, temperature, humidity, soil moisture.
+* Check the status of the irrigation system (On/Off).
+
+Some parameters of the system can be modified using the Blynk app too:
+* **Water level threshold**: if the water level is above* this number, the app will send a warning.
+* **Soil moisture threshold**: the system will turn on the irrigation if the current soil moisture is below this number.
+* **Watering interval _(in hours)_**: how often the system will irrigate -if conditions require-.
+* **Watering time _(in seconds)_**: duration of the irrigation when activated.
+
+> *Please note that the water level sensor measures the distance between the top of the container and the surface of the water. So a higher number means a lower water level.
+
+Soil moisture and low water level threshold can be set using the Blynk app too.
+
 ## Make it Modular, Make it Smarter
 
 The **Smart Modular Watering System** has a very simple implementation, but there is lot of room for improvement. Some other features can be added to the **Smart Modular Watering System** with some more work, below few examples:
@@ -24,9 +41,9 @@ The **Smart Modular Watering System** has a very simple implementation, but ther
 
 ## Repository Contents
 
-* **/3D_Models** - SketchUp and .STL files
-* **/Hardware** - Eagle design files: ***.brd**, ***.sch**
+* **/3D_Models** - SketchUp and **.STL** files
+* **/Hardware** - Eagle design files: **.BRD**, **.SCH**
 * **/Blynk_Board_Source_Code** - Source code for the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794)
-* **/ATtiny45_HC-SR04_to_I2C_Source_Code** - Source code for the ATtiny45 used to convert the readings of the ultrasonic distance sensor to I2C.
+* **/ATtiny45_HC-SR04_to_I2C_Source_Code** - Source code for the ATtiny45 used to convert the data from ultrasonic distance sensor to I2C.
 
 
