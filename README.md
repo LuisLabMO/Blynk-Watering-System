@@ -24,7 +24,7 @@ The **Smart Modular Watering System** has a very simple implementation, but ther
 
 ## Repository Contents
 
-* **3D_Models** - SketchUp and .STL files
+* **/3D_Models** - SketchUp and .STL files
 * **/Hardware** - Eagle design files: ***.brd**, ***.sch**
 * **/Blynk_Board_Source_Code** - Source code for the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794)
 * **/ATtiny45_HC-SR04_to_I2C_Source_Code** - Source code for the ATtiny45 used to convert the readings of the ultrasonic distance sensor to I2C.
