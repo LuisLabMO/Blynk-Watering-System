@@ -2,17 +2,18 @@
 
 I like plants, I like to be eco-friendly, love electronics, but how can I fit those things together? enters the **Smart Modular Watering System**.
 
-By using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
+By using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) with the [Blynk app](https://www.blynk.cc) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
 
-## Sensors
+> **It will help you save water!**
 
-Data collected from sensors is being used to decide when is the right time to water the plants, and to send alerts when the water reservoir is low and more:
+## Sensors data
+
+Data collected from sensors is used to decide when is the right time to water the plants, to send alerts when the water reservoir is low and more:
 
 * **Soil moisture sensor**: accurately measures the actual soil moisture.
 * An **ultrasonic distance sensor** can be used to measure the level of the water reservoir with good reliability.
 * **UV sensor** data may help you decide whether your plant needs more shadow or direct sunlight.
 * **Temperature** and **humidity** sensors can also help deciding about critical conditions for your plants.
-* It will help you save water!. It will water the plants when is required and the water reservoir can be filled-up with rainwater.
 
 ## The Blynk App
 
@@ -28,8 +29,6 @@ Some parameters of the system can be modified using the Blynk app too:
 * **Watering time _(in seconds)_**: duration of the irrigation when activated.
 
 > *Please note that the water level sensor measures the distance between the top of the container and the surface of the water. So a higher number means a lower water level.
-
-Soil moisture and low water level threshold can be set using the Blynk app too.
 
 ## Make it Modular, Make it Smarter
 
