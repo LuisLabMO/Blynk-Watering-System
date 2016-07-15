@@ -698,6 +698,7 @@
 <sheets>
 <sheet>
 <plain>
+<text x="12.7" y="-10.16" size="1.778" layer="97" rot="R180">UV Sensor (VEML6070) Breakout </text>
 </plain>
 <instances>
 <instance part="GND10" gate="GND" x="15.24" y="-5.08"/>
