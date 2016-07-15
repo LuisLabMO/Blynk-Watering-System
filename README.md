@@ -2,7 +2,7 @@
 
 I like plants, I like to be eco-friendly, love electronics, but how can I fit those things together? enters the **Smart Modular Watering System**.
 
-By using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) with the [Blynk app](https://www.blynk.cc) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
+By using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) with the [Blynk app](http://www.blynk.cc) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
 
 > **It will help you save water!**
 
@@ -40,9 +40,9 @@ The **Smart Modular Watering System** has a very simple implementation, but ther
 
 ## Repository Contents
 
-* **/3D_Models** - SketchUp and **.STL** files
-* **/Hardware** - Eagle design files: **.BRD**, **.SCH**
-* **/Blynk_Board_Source_Code** - Source code for the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794)
-* **/ATtiny45_HC-SR04_to_I2C_Source_Code** - Source code for the ATtiny45 used to convert the data from ultrasonic distance sensor to I2C.
+* [/3D_Models](./tree/master/3D_Models) - SketchUp and **.STL** files
+* [/ATtiny45_HC-SR04_to_I2C_Source_Code](./tree/master/ATtiny45_HC-SR04_to_I2C_Source_Code) - Source code for the ATtiny45 used to convert the data from ultrasonic distance sensor to I2C.
+* [/Blynk_Board_Source_Code](./tree/master/Blynk_Board_Source_Code) - Source code for the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794)
+* [/Hardware](./tree/master/Hardware) - Eagle design files: **.BRD**, **.SCH**
 
 
