@@ -843,6 +843,9 @@
 <sheets>
 <sheet>
 <plain>
+<text x="43.18" y="-15.24" size="1.778" layer="97" rot="R180">HC-SR04 sensor interface will be managed by the the ATtiny45
+microcontroller, which will send the distance readings in 
+centimeters each time they are requested by the I2C Master.</text>
 </plain>
 <instances>
 <instance part="U$3" gate="VCC" x="5.08" y="30.48"/>
@@ -872,11 +875,11 @@
 <segment>
 <pinref part="J2" gate="J5" pin="1"/>
 <wire x1="7.62" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
-<label x="2.54" y="5.08" size="1.778" layer="95" rot="R180"/>
+<label x="2.54" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="-5.08" x2="-30.48" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-30.48" y="-5.08" size="1.778" layer="95"/>
+<label x="-30.48" y="-5.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="J5" pin="1"/>
 <junction x="-35.56" y="-5.08"/>
 </segment>
@@ -891,11 +894,11 @@
 <segment>
 <pinref part="J2" gate="J5" pin="2"/>
 <wire x1="7.62" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="91"/>
-<label x="2.54" y="2.54" size="1.778" layer="95" rot="R180"/>
+<label x="2.54" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<label x="-30.48" y="2.54" size="1.778" layer="95"/>
+<label x="-30.48" y="2.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="J5" pin="4"/>
 <junction x="-35.56" y="2.54"/>
 </segment>
@@ -915,7 +918,7 @@
 </segment>
 <segment>
 <wire x1="-35.56" y1="5.08" x2="-30.48" y2="5.08" width="0.1524" layer="91"/>
-<label x="-30.48" y="5.08" size="1.778" layer="95"/>
+<label x="-30.48" y="5.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="J5" pin="5"/>
 <junction x="-35.56" y="5.08"/>
 </segment>
@@ -929,7 +932,7 @@
 <segment>
 <pinref part="J2" gate="J5" pin="3"/>
 <wire x1="7.62" y1="0" x2="2.54" y2="0" width="0.1524" layer="91"/>
-<label x="2.54" y="0" size="1.778" layer="95" rot="R180"/>
+<label x="2.54" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA/MOSI" class="0">
@@ -941,7 +944,7 @@
 <segment>
 <pinref part="J2" gate="J5" pin="4"/>
 <wire x1="7.62" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="91"/>
-<label x="2.54" y="-2.54" size="1.778" layer="95" rot="R180"/>
+<label x="2.54" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ECHO" class="0">
@@ -952,7 +955,7 @@
 </segment>
 <segment>
 <wire x1="-35.56" y1="-2.54" x2="-30.48" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-30.48" y="-2.54" size="1.778" layer="95"/>
+<label x="-30.48" y="-2.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="J5" pin="2"/>
 <junction x="-35.56" y="-2.54"/>
 </segment>
@@ -965,7 +968,7 @@
 </segment>
 <segment>
 <wire x1="-35.56" y1="0" x2="-30.48" y2="0" width="0.1524" layer="91"/>
-<label x="-30.48" y="0" size="1.778" layer="95"/>
+<label x="-30.48" y="0" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="J5" pin="3"/>
 <junction x="-35.56" y="0"/>
 </segment>
@@ -983,7 +986,7 @@
 <segment>
 <pinref part="J2" gate="J5" pin="5"/>
 <wire x1="7.62" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
-<label x="2.54" y="-5.08" size="1.778" layer="95" rot="R180"/>
+<label x="2.54" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -995,4 +998,10 @@
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
