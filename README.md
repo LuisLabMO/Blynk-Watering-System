@@ -21,7 +21,7 @@ Data collected from sensors is used to decide when is the right time to water th
 
 The Blynk app can be used to monitor in real time the data collected by the sensors:
 * Plot the UV index.
-* Check the water level, temperature, humidity, soil moisture in real time.
+* Monitor the water level, temperature, humidity, soil moisture in real time.
 * Check the status of the irrigation system (On/Off) - **H2O Led**.
 
 Some parameters of the system can be modified by using the Blynk app too:
