@@ -2,7 +2,9 @@
 
 I like plants, I like to be eco-friendly, love electronics, but how can I fit those things together? enters the **Smart Modular Watering System**.
 
-By using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) with the [Blynk app](http://www.blynk.cc) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
+[![Smart Modular Watering System using Blynk - Youtube](http://luislab.com/luislab/wp-content/uploads/2016/07/SmartModularWateringSystem_youtube.jpg)](https://www.youtube.com/watch?v=UPALH_MEa6o)
+
+Using the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794) with the [Blynk app](http://www.blynk.cc) you can build a system that monitors the level of the water reservoir and will water your plants automatically at the right moment.
 
 > **It will help you save water!**
 
@@ -45,4 +47,6 @@ The **Smart Modular Watering System** has a very simple implementation, but ther
 * [/Blynk_Board_Source_Code](https://github.com/LuisLabMO/Blynk-Watering-System/tree/master/Blynk_Board_Source_Code) - Source code for the [SparkFun ESP8266 Blynk Board](https://www.sparkfun.com/products/13794)
 * [/Hardware](https://github.com/LuisLabMO/Blynk-Watering-System/tree/master/Hardware) - Eagle design files: **.BRD**, **.SCH**
 
+## More Information
 
+For more information visit the project page on [Hackster.io](https://www.hackster.io/lmortizg/smart-modular-watering-system-b571ec)
